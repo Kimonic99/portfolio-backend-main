@@ -10,6 +10,6 @@ const VisitorSchema = new Schema(
   {
     collection: "visitors",
   }
-);
+); 
 
 module.exports = mongoose.model("Visitor", VisitorSchema);
